@@ -1,0 +1,2 @@
+
+Yapay sinir ağı kullanılarak  Türkçe Pos tagging yapabilmek için  veri kümesinin nasıl hazırlanmasından başlayarak, özellik vektörünün yapısının nasıl olabileceği  konusunda bir örnek tasarım  hazırlayınız. 
