@@ -1,2 +1,37 @@
-
+ÖDEV
 Yapay sinir ağı kullanılarak  Türkçe Pos tagging yapabilmek için  veri kümesinin nasıl hazırlanmasından başlayarak, özellik vektörünün yapısının nasıl olabileceği  konusunda bir örnek tasarım  hazırlayınız. 
+
+
+
+
+Aşağıda örnek bir tasarım adım adım açıklanmıştır:
+
+1) Veri Kümesinin Hazırlanması:
+
+Türkçe metinlerden oluşan bir veri kümesi toplanmalıdır. Bu metinler farklı türde yazılardan (örneğin, haber metinleri, makaleler, romanlar) oluşabilir.
+Metinler tokenize edilerek kelimelere ayrılmalı ve her kelimenin POS etiketi belirlenmelidir. Bu işlem manuel olarak ya da otomatik POS tagger araçları kullanılarak yapılabilir.
+
+2)Özellik Vektörünün Yapısının Belirlenmesi:
+
+Her kelime için bir özellik vektörü oluşturulmalıdır. Özellik vektörü, kelimenin etrafındaki bağlamı ve dilbilgisel özelliklerini temsil etmelidir.
+Özellik vektörü örnek olarak şu bileşenleri içerebilir:
+Kelimenin kendisi
+Önceki ve sonraki kelimeler
+Kelimenin harf sayısı
+Kelimenin büyük harfle başlayıp başlamadığı
+Kelimenin içerdiği harf n-gram'ları
+Kelimenin morfolojik yapısı (kök, ekler vb.)
+
+3) Yapay Sinir Ağı Modelinin Oluşturulması:
+
+Özellik vektörleri ve bunlara karşılık gelen POS etiketleri kullanılarak bir yapay sinir ağı modeli oluşturulmalıdır.
+Girdi katmanı, gizli katman(lar) ve çıkış katmanı oluşturulmalıdır. Her katman uygun aktivasyon fonksiyonları ile birbirine bağlanmalıdır.
+Eğitim için veri kümesi ağı eğitmek üzere bölünmeli ve ağın doğruluğu ve performansı test edilmelidir.
+
+4) Eğitim ve Değerlendirme:
+
+Oluşturulan yapay sinir ağı modeli veri kümesi üzerinde eğitilmelidir. Eğitim sırasında ağın doğruluğunu artırmak için geri yayılım algoritması gibi teknikler kullanılabilir.
+Eğitim tamamlandıktan sonra ağın performansı test veri kümesi üzerinde değerlendirilmelidir. Doğruluk, hassasiyet ve geri çağırma gibi metrikler kullanılarak performans ölçülmelidir.
+
+
+   Bu adımların takip edilmesi, yapay sinir ağı kullanarak Türkçe POS tagging yapmak için başlangıç noktası olabilir. Bu tasarımın detayları ve parametreleri, spesifik veri kümesi ve gereksinimlere göre ayarlanabilir.
