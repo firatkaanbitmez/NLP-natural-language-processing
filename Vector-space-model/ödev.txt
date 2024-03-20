@@ -1,0 +1,3 @@
+Aşağıdaki bağlantıda yer alan vector space model örneğini kendiniz gerçekleştirip rapor olarak iletiniz.
+
+https://machinelearningmastery.com/a-gentle-introduction-to-vector-space-models/
