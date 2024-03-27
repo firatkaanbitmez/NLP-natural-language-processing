@@ -1,0 +1,4 @@
+Türkçe dili için Morfolojik Belirsizliğin giderilmesi konusunda makine öğrenimi temelli yaklaşımlar hakkında bir araştırma yapınız. Türkiye'de yayınlanan makaleleri özetleyiniz. 
+
+
+Kendiniz bu problem için bir tasarım geliştiriniz.  Bir Morfilojik Belirsizlik Giderici yapmak için algoritma adımlarınızı, veri kümenizi nasıl hazırlamanız gerektiğini anlatınız.
